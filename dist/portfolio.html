@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/portfolio.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <title>My Portfolio - Salman Ahmed - full-stack software developer</title>
+    <link rel="icon" type="image/x-icon" href="coding.ico" />
+
+    <meta name="description" content="A software developer specialized in both front-end and back-end. See 'My Skills' and 'My Portfolio' to read more." />
+    <link rel="canonical" href="https://ahmed-salman2468.github.io/Portfolio/" />
+    <meta property="og:title" content="Salman Ahmed - full-stack software developer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Salman Ahmed - full-stack software developer" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="https://ahmed-salman2468.github.io/Portfolio/" />
+    <meta property="og:description" content="A software developer specialized in both front-end and back-end. See 'My Skills' and 'My Portfolio' to read more." />
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+      <div class="container-fluid">
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link"> About Me </a>
+          </li>
+          <li class="nav-item current">
+            <a href="portfolio.html" class="nav-link"> Portfolio </a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link"> Contact Me </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- https://stackoverflow.com/questions/25907930/chrome-not-respecting-video-source-inline-media-queries
+     http://thenewcode.com/820/Make-HTML5-Video-Adaptive-With-Inline-Media-Queries  -->
+    <section class="showcase">
+      <div class="video-container">
+        <video src="img/intro_video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="content">
+        <h1>Portfolio</h1>
+        <h3>See my works below. Unless explicitly stated otherwise, all their back-end and front-end parts were completely done by me.</h3>
+        <a href="#projects" class="btn">View Projects</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="heading-title">Projects</div>
+      <div class="wrapper">
+        <!-- nav -->
+        <nav class="secondary-nav">
+          <ul>
+            <li><a href="#ebidding_website">Websites</a></li>
+            <li><a href="#result_compiler">Desktop</a></li>
+            <li><a href="#social_android_app">Android</a></li>
+            <li><a href="#Prescription_recognition">Deep-Learning</a></li>
+            <li><a href="#freelance_projects">Freelance</a></li>
+          </ul>
+        </nav>
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 01 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="Prescription_recognition">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h3 class="title">Medicine Prescription Recognition</h3>
+                <p class="caption">Final Year Project of Digitalization of Doctor Handwriting.</p>
+                <p class="date-time">Aug-2020 to June-2020</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>Implemented using Deep learning CNN algorithm on images of prescription</li>
+                  <li>Collected and created own preprocessed prescription image dataset.</li>
+                  <li>Created a CNN model for training and testing of images of doctor’s handwritten medicines.</li>
+                  <li>Developed and deployed a WebApp on Heroku server in python-flask to provide efficient understandable prescription in digitalize form.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>Python3</li>
+                    <li>OpenCV</li>
+                    <li>Tensorflow</li>
+                    <li>Flask</li>
+                    <li>HTML5</li>
+                    <li>bootswatch</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <a href="https://prescription-recognition.herokuapp.com/" target="_blank">View Live</a>
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project01/Medicine-Recognition 01 Home Page.png" data-fancybox="gallery" data-caption="Caption here"><img src="img/projects/Project01/Medicine-Recognition 01 Home Page.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 02 Home Page.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 02 Home Page.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 04 Prediction Page.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 04 Prediction Page.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 05 About Page.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 05 About Page.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 06 Features Page.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 06 Features Page.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 07 algorithm.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 07 algorithm.png" alt="" /></a>
+            <a href="img/projects/Project01/Medicine-Recognition 08 Model Accuracy.png" data-fancybox="gallery"><img src="img/projects/Project01/Medicine-Recognition 08 Model Accuracy.png" alt="" /></a>
+            <!-- <img src="https://source.unsplash.com/random/101x100" alt="" /> -->
+          </div>
+        </div>
+        <!--project 01/ ***************Project div *****************-->
+        <!-- project-container-wrapper end -->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 02 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="api_integration">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">JSON API Integration using Node.js</h2>
+                <p class="caption">RESTful API Integration</p>
+                <p class="date-time">Sep-2019 to Nov-2019</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>The scope of the project is to implement the API integration of job search API’s with in node.js with the query of end-user.</li>
+                  <li>Request and Fetch data from website’s API url with end-user search job keyword</li>
+                  <li>Convert it to JSON objects and take it to end-user</li>
+                  <li>Web application should be responsive on pc and mobile view</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Node-fetch</li>
+                    <li>HTML5</li>
+                    <li>Bootswatch</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <a href="https://jobsearch-engine.glitch.me/" target="_blank">View Live</a>
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project02/API Integration 01 Home page.png" data-fancybox="gallery" data-caption="Caption here"><img src="img/projects/Project02/API Integration 01 Home page.png" alt="" /></a>
+            <a href="img/projects/Project02/API Integration 02 Home page.png" data-fancybox="gallery"><img src="img/projects/Project02/API Integration 02 Home page.png" alt="" /></a>
+            <a href="img/projects/Project02/API Integration 03 Home page.png" data-fancybox="gallery"><img src="img/projects/Project02/API Integration 03 Home page.png" alt="" /></a>
+            <a href="img/projects/Project02/API Integration 04 About page.png" data-fancybox="gallery"><img src="img/projects/Project02/API Integration 04 About page.png" alt="" /></a>
+            <a href="img/projects/Project02/API Integration 05 IO diagram.png" data-fancybox="gallery"><img src="img/projects/Project02/API Integration 05 IO diagram.png" alt="" /></a>
+            <a href="img/projects/Project02/API Integration 06 Algorithm.png" data-fancybox="gallery"><img src="img/projects/Project02/API Integration 06 Algorithm.png" alt="" /></a>
+            <!-- <img src="https://source.unsplash.com/random/101x100" alt="" /> -->
+          </div>
+        </div>
+        <!-- project 02/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 03 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="social_android_app">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Social Media Mobile Application</h2>
+                <p class="caption">Android Application</p>
+                <p class="date-time">March-2019 to May-2019</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>Implemented in Java using Android Studio on Android SDK Pie (28.0)</li>
+                  <li>The Firebase Real-time database used for user images and status post images storage</li>
+                  <li>The user can sign-in/sign-up and post status with text and images also with also can comment on other peoples status.</li>
+                  <li>Modern, responsive and user friendly interface.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>Java</li>
+                    <li>Android</li>
+                    <li>Firebase</li>
+                    <li>Glide</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <!-- <a href="#">View Live</a> -->
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project05/Android Scial App 01 all screens.PNG" data-fancybox="gallery" data-caption="All screens of project"><img src="img/projects/Project05/Android Scial App 01 all screens.PNG" alt="" /></a>
+            <a href="img/projects/Project05/Android Scial App 02 packages activites and fragments.PNG" data-fancybox="gallery"><img src="img/projects/Project05/Android Scial App 02 packages activites and fragments.PNG" alt="" /></a>
+            <a href="img/projects/Project05/Android Scial App 03 Firebase database.PNG" data-fancybox="gallery"><img src="img/projects/Project05/Android Scial App 03 Firebase database.PNG" alt="" /></a>
+            <a href="img/projects/Project05/Android Scial App 04 Login.PNG" data-fancybox="gallery" data-caption="Sample GUI"><img src="img/projects/Project05/Android Scial App 04 Login.PNG" alt="" /></a>
+            <a href="img/projects/Project05/Android Scial App 05 RecyclerView.PNG" data-fancybox="gallery" data-caption="Sample GUI"><img src="img/projects/Project05/Android Scial App 05 RecyclerView.PNG" alt="" /></a>
+            <a href="img/projects/Project05/Android Scial App 06 RecyclerView Product Display on Mobile.png" data-fancybox="gallery" data-caption="Internship Project"><img src="img/projects/Project05/Android Scial App 06 RecyclerView Product Display on Mobile.png" alt="" /></a>
+            <!-- <img src="https://source.unsplash.com/random/101x100" alt="" /> -->
+          </div>
+        </div>
+        <!-- project 03/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 04 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="result_compiler">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Result Compiler</h2>
+                <p class="caption">C# Desktop Application</p>
+                <p class="date-time">Oct-2018 to Dec-2018</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>Implemented in C# using dotnet framework in Visual Studio 2013.</li>
+                  <li>It is a Desktop application which can read, create, process and compile the best number of quizzes and assignments from excel file and save the new processed excel file.</li>
+                  <li>Created install-able setup package for deployment on desktop systems.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>C#</li>
+                    <li>.net</li>
+                    <li>excel</li>
+                    <li>visualstudio</li>
+                    <li>MetroUI</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <!-- <a href="#">View Live</a> -->
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project04/Result Compiler 01 Home panel.png" data-fancybox="gallery" data-caption="Windows Desktop Application"><img src="img/projects/Project04/Result Compiler 01 Home panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 02 Create template panel.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 02 Create template panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 03 Default template panel.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 03 Default template panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 04 Create template custom panel.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 04 Create template custom panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 05 Open spreadsheet file panel.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 05 Open spreadsheet file panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 06 Output Spreadsheet.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 06 Output Spreadsheet.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 07 Processing marks panel.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 07 Processing marks panel.png" alt="" /></a>
+            <a href="img/projects/Project04/Result Compiler 08 Exit application.png" data-fancybox="gallery"><img src="img/projects/Project04/Result Compiler 08 Exit application.png" alt="" /></a>
+            <!-- <img src="https://source.unsplash.com/random/101x100" alt="" /> -->
+          </div>
+        </div>
+        <!-- project 04/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 05 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="ebidding_website">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Online Bidding Website</h2>
+                <p class="caption">Product selling & purchasing website</p>
+                <p class="date-time">March-2018 to May-2020</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>Product purchasing and selling website with multiple category of products</li>
+                  <li>The user can sign-in/sign-up upload products with images and price and deadline for bidding and can bid on other user products.</li>
+                  <li>The admin can approve user accounts add new categories for products and much more.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>PHP</li>
+                    <li>html5</li>
+                    <li>Javascript</li>
+                    <li>Mysql</li>
+                    <li>Jquery</li>
+                    <li>MDBbootstrap</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <!-- <a href="#">View Live</a> -->
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project03/Ebidding System  01 Home Page.png" data-fancybox="gallery" data-caption="Online Buying & Selling website"><img src="img/projects/Project03/Ebidding System  cover.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  02 Login Page.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  02 Login Page.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  03 Register Page.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  03 Register Page.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  04 Conatct us Page.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  04 Conatct us Page.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  05 Team.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  05 Team.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  06 User Profile Page.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  06 User Profile Page.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  07 User Dashboard Add item.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  07 User Dashboard Add item.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  08 Items List.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  09 Algorithm.png" alt="" /></a>
+            <a href="img/projects/Project03/Ebidding System  10 Database Tables Relationship.png" data-fancybox="gallery"><img src="img/projects/Project03/Ebidding System  10 Database Tables Relationship.png" alt="" /></a>
+           
+            <!-- <img src="https://source.unsplash.com/random/101x100" alt="" /> -->
+          </div>
+        </div>
+        <!-- project 05/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 06 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="freelance_projects">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Freelance Projects & Tasks </h2>
+                <p class="caption">Projects from Fiverr and Facebook groups</p>
+                <p class="date-time">June-2019 to Date</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>Regression, Gradient Decent and core programming problems in python3</li>
+                  <li>Responsive Web designing using HTML5, CSS3 and Bootstrap4 and CSS3 flexbox & grid</li>
+                  <li>Object-Oriented programming using Java and report writing with UML diagrams</li>
+                  <li>Relational Database designing with UML diagram presentation and description.</li>
+                  <li>Database Implementation in Mysql by writing DDL, DML, DCL and TCL sql.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>Python</li>
+                    <li>C++&C</li>
+                    <li>Java</li>
+                    <li>Database</li>
+                    <li>SQL</li>
+                    <li>HTML&CSS</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project06/DataScience task.png" data-fancybox="gallery"><img src="img/projects/Project06/DataScience task.png" alt="" /></a>
+            <a href="img/projects/Project06/OOP Java Task.png" data-fancybox="gallery"><img src="img/projects/Project06/OOP Java Task.png" alt="" /></a>
+            <a href="img/projects/Project06/picture collage (1).png" data-fancybox="gallery"><img src="img/projects/Project06/picture collage (1).png" alt="" /></a>
+            <a href="img/projects/Project06/picture collage (2).png" data-fancybox="gallery"><img src="img/projects/Project06/picture collage (2).png" alt="" /></a>
+            <a href="img/projects/Project06/picture collage.png" data-fancybox="gallery"><img src="img/projects/Project06/picture collage.png" alt="" /></a>
+            <a href="img/projects/Project06/picture collage01.png" data-fancybox="gallery"><img src="img/projects/Project06/picture collage01.png" alt="" /></a>
+            <!-- <a href="img/projects/Project06/" data-fancybox="gallery"><img src="img/projects/Project06/" alt="" /></a>
+            <a href="img/projects/Project06/" data-fancybox="gallery"><img src="img/projects/Project06/" alt="" /></a> -->
+            
+          </div>
+        </div>
+        <!-- project 06/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 07 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="internship_CAA">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Pakistan Civil Aviation Authority JIAP</h2>
+                <p class="caption">Full Stack Developer Internship</p>
+                <p class="date-time">July-2019 to Aug-2019</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>07 week Internship in Information Technology Department of Civil Aviation Authority Jinnah Airport Karachi.</li>
+                  <li>Developed backend server side on PHP with MySQL to for user authentication with product adding, updating and removing features</li>
+                  <li>Multi-layer category for product such as category, sub-category and brand</li>
+                  <li>Designed detailed page of product with multiple images of product with create and delete options.</li>
+                  <li>Developed an API in JSON with in  of products data for android application.</li>
+                  <li>Designed and Developed android application in java for displaying products by fetching JSON using API.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>PHP</li>
+                    <li>MYSQL</li>
+                    <li>html5</li>
+                    <li>Android</li>
+                    <li>Java</li>
+                    <li>json-api</li>
+                    <li>AJAX</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <!-- <a href="#">View Live</a> -->
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project07/Intership Project 00 - Index.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 00 - Index.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 01 - Sign-In.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 01 - Sign-In.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 02 - Sign-Up.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 02 - Sign-Up.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 03 - Admin Dashboard.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 03 - Admin Dashboard.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 04 - Product Page.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 04 - Product Page.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 05 - Category Page.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 05 - Category Page.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 06 - Sub-Category Page.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 06 - Sub-Category Page.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 07 - Brand Page.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 07 - Brand Page.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 08 - Product Details Page.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 08 - Product Details Page.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 09 - Product Details Images.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 09 - Product Details Images.png" alt="" /></a>
+            <a href="img/projects/Project07/Intership Project 10 - Product Display on Mobile.png" data-fancybox="gallery"><img src="img/projects/Project07/Intership Project 10 - Product Display on Mobile.png" alt="" /></a>
+          </div>
+        </div>
+        <!-- project 07/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+        <!-- ````````````````````````````````````````````````````````````````````````````````````` -->
+        <!-- start project-container-wrapper (ctrl+c)-->
+        <!-- project 08 ***************Project div *****************-->
+        <div class="project-container-wrapper" id="internship_RoboticsWorld_IqraUniversity">
+          <section class="project-container">
+            <div class="project-info">
+              <div class="project title-meta">
+                <h2 class="title">Robotics-World (ORIC) Iqra University</h2>
+                <p class="caption">Front-End Developer Internship</p>
+                <p class="date-time">Nov-2020 to Feb-2020</p>
+              </div>
+              <div class="project desc-stack">
+                <ul class="project-ul-list">
+                  <li>10 weeks Internship in Robotics-World, a startup at Research and Development Department of Iqra University</li>
+                  <li>Developed the front-end of recruitment module of an ERP web application on Angular8 framework</li>
+                  <li>REST API integration through Node.js and Express.js with MongoDB database in Typescript of angular framework</li>
+                  <li>Searching And Filtration of jobs and applicants data according to their skills and education.</li>
+                  <li>Generation of CV of applicants through their provided data and also Develop the option for sending interview invitation within the application.</li>
+                </ul>
+                <div class="tech-stack">
+                  <ul>
+                    <li>Typescript</li>
+                    <li>Angular8</li>
+                    <li>Bootstrap4</li>
+                    <li>Services</li>
+                    <li>Html5</li>
+                    <li>Node.js</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="showcase-img">
+              <!-- <a href="#">View Live</a> -->
+            </div>
+          </section>
+          <div class="project-portfolio-images">
+            <a href="img/projects/Project08/Internship Project 02 - Career Page.png" data-fancybox="gallery" data-caption="ERP System in MEAN Stack"><img src="img/projects/Project08/Internship Project 02 - Career Page.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 03 - Login Page.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 03 - Login Page.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 03 - Sign-Up Page.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 03 - Sign-Up Page.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 03 - Multi-Step Job Application Form.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 03 - Multi-Step Job Application Form.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 04 - Multi-Step Job Application Form.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 04 - Multi-Step Job Application Form.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 05 - Multi-Step Job Application Form.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 05 - Multi-Step Job Application Form.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 06 - Multi-Step Job Application Form.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 06 - Multi-Step Job Application Form.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 07 - Admin Dashboard List of Applicants.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 07 - Admin Dashboard List of Applicants.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 08 - Admin Dashboard Post Job.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 08 - Admin Dashboard Post Job.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 09 - Admin Dashboard Generate CV.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 09 - Admin Dashboard Generate CV.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 09 - Admin Dashboard List of Posted Job.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 09 - Admin Dashboard List of Posted Job.png" alt="" /></a>
+            <a href="img/projects/Project08/Internship Project 09 - Admin Dashboard Send Interview Invitation.png" data-fancybox="gallery"><img src="img/projects/Project08/Internship Project 09 - Admin Dashboard Send Interview Invitation.png" alt="" /></a>
+            
+        </div>
+        </div>
+        <!-- project 08/ ***************Project div *****************-->
+        <!-- project-container-wrapper end /-->
+    </section>
+
+    <footer id="main-footer">Copyright &copy; 2020 <a href="#projects" class="text-secondary" style="padding-left: 15px">Salman Ahmed</a></footer>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+      $("[data-fancybox]").fancybox({
+        protect: true,
+        loop: true,
+        keyboard: true,
+        //   "zoom"           - zoom images from/to thumbnail
+        //   "fade"
+        //   "zoom-in-out"
+        animationEffect: "zoom",
+        // Transition effect between slides
+        //
+        // Possible values:
+        //   false            - disable
+        //   "fade'
+        //   "slide'
+        //   "circular'
+        //   "tube'
+        //   "zoom-in-out'
+        //   "rotate'
+        //
+        transitionEffect: "fade",
+      });
+    </script>
+  
+</body>
+</html>
